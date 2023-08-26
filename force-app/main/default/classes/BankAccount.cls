@@ -1,7 +1,7 @@
 public class BankAccount {
-  //data members
-  //object variables
-  private String ach_name;
+	//data members
+	//object variables
+	private String ach_name;
     private Integer ac_no;
     private Decimal ac_bal;
     private static Integer count = 0;//class variable    
