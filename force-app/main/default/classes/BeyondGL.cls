@@ -11,7 +11,7 @@ public class BeyondGL implements Database.Batchable<Bottle__c>{
     public void execute(Database.BatchableContext bc , List<Bottle__c> My_Bottle){
         //process the fetched records
          System.debug('Batch Processing in Execute');
-        for(Bottle__c N_Bottle : My_Bottle){//every field in each record
+        for(Bottle__c N_Bottle : My_Bottle){ //every field in each record
             N_Bottle.Price__c  += 32;           
         } 
         try{

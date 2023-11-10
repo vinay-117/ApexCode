@@ -8,8 +8,7 @@ public class BankAccount {
     //member Methods
     //create
     //Default Constructor
-    public BankAccount(){ //load dummy values
-       
+    public BankAccount(){            //load dummy values
         ach_name = 'no name';
         ac_no = 0;
         ac_bal = 0.0;       
@@ -18,14 +17,14 @@ public class BankAccount {
     }
     //Parameterised COnstructor
     //local variables
-    public BankAccount(String name,Integer no, Decimal bal){//load meaningful value
+    public BankAccount(String name,Integer no, Decimal bal){       //load meaningful value
         ach_name = name;
         ac_no = no;
         ac_bal = bal;
     }
     //input
     //local variables 
-    public void setValues(String name,Integer no, Decimal bal){//load meaningful value
+    public void setValues(String name,Integer no, Decimal bal){    //load meaningful value
         ach_name = name;
         ac_no = no;
         ac_bal = bal;
