@@ -22,6 +22,6 @@ export default class LifecycleHooks extends LightningElement {
     }
 
     errorCallback(error, stack){
-        console.log('Error call back: ' + error);
+        console.log("Error call back: " + error);
     }
 }
